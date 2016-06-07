@@ -13,6 +13,7 @@
         }
     ],
     "require": {
+        "php": ">=5.4.0",
         "php-curl-class/php-curl-class": "^4.11",
         "imangazaliev/didom": "^1.6"
     },
