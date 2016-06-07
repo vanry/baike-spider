@@ -17,8 +17,8 @@
         "imangazaliev/didom": "^1.6"
     },
     "autoload": {
-		"psr-4": {
-			"Vanry\\": "src/"
-		}
+        "psr-4": {
+            "Vanry\\": "src/"
+        }
     }
 }
