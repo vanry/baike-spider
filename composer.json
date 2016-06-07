@@ -1,0 +1,24 @@
+{
+    "name": "vanry/baike-spider",
+    "description": "A simple spider crawling web pages from baike.baidu.com",
+    "keywords": ["baike", "spider", "crawler"],
+    "type": "application",
+    "minimum-stability": "dev",
+    "homepage": "http://vanry.me",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vanry",
+            "email": "ivanry@163.com"
+        }
+    ],
+    "require": {
+        "php-curl-class/php-curl-class": "^4.11",
+        "imangazaliev/didom": "^1.6"
+    },
+    "autoload": {
+		"psr-4": {
+			"Vanry\\": "src/"
+		}
+    }
+}
